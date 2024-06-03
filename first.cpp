@@ -43,8 +43,9 @@ int main()
     // if(cin<<i){
     //     cout<<"hello: "<<i;
     // }
-    if (cout << "Hello ")
-    {
-        cout << "hello: ";
-    }
+    // if (cout << "Hello ")
+    // {
+    //     cout << "hello: ";
+    // }
+    
 }
