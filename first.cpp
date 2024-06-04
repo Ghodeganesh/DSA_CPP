@@ -30,22 +30,22 @@ int main()
 
     // }
 
-    // for(;;){
-    //     cout<<"Hello:"<<endl;
-    // }
+    for(;;){
+        cout<<"Hello:"<<endl;
+    }
 
-    // for (char ch = 'a'; ch <= 'z'; ch++)
-    //     ;
-    // {
-    //     cout << "chhar is at : " << ch << endl;
-    // }
-    //   int i;
-    // if(cin<<i){
-    //     cout<<"hello: "<<i;
-    // }
-    // if (cout << "Hello ")
-    // {
-    //     cout << "hello: ";
-    // }
+    for (char ch = 'a'; ch <= 'z'; ch++)
+        ;
+    {
+        cout << "chhar is at : " << ch << endl;
+    }
+      int i;
+    if(cin<<i){
+        cout<<"hello: "<<i;
+    }
+    if (cout << "Hello ")
+    {
+        cout << "hello: ";
+    }
     
 }
