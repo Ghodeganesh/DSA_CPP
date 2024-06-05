@@ -32,27 +32,53 @@ int main()
 
     // program for hollow square
 
-    int row, col;
-    cout << "Enter the Total row : ";
-    cin >> row;
-    cout << "Enter the Total col : ";
-    cin >> col;
+    // int row, col;
+    // cout << "Enter the Total row : ";
+    // cin >> row;
+    // cout << "Enter the Total col : ";
+    // cin >> col;
 
-    for (int i = 0; i < row; i++)
+    // for (int i = 0; i < row; i++)
+    // {
+    //     for (int j = 0; j < col; j++)
+    //     {
+    //         if (i == 0 || i == row - 1)
+    //         {
+    //             cout << " * ";
+    //         }
+    //         else
+    //         {
+    //             if (j == 0 || j == col - 1)
+    //                 cout << " * ";
+    //             else
+    //                 cout << "   ";
+    //         }
+    //     }
+    //     cout << endl;
+    // }
+
+    // int num;
+    // cout << "Enter Number: ";
+    // cin >> num;
+
+    // for (int i = 1; i <= num; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         cout << " * ";
+    //     }
+    //     cout << endl;
+    // }
+
+    int num;
+    cout << "Enter Number: ";
+    cin >> num;
+
+    for (int i = 1; i <= num; i++)
     {
-        for (int j = 0; j < col; j++)
+        for (int j = num; j>=i; j--)
         {
-            if (i == 0 || i == row - 1)
-            {
-                cout << " * ";
-            }
-            else
-            {
-                if(j == 0 || j == col-1)
-                cout << " * ";
-                else
-                cout<<"   ";
-            }
+            cout << " * ";
         }
         cout << endl;
     }
