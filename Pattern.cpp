@@ -1,8 +1,178 @@
 #include <iostream>
 using namespace std;
 
+// void pattern1(int n)
+// {
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= n; j++)
+//         {
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// void pattern2(int n)
+// {
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// void pattern3(int n)
+// {
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = n; j >=i; j--)
+//         {
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// void pattern3U(int n)
+// {
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= n-i+1; j++)
+//         {
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// void pattern4(int n)
+// {
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout << j<<" ";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// int pattern5(int n)
+// {
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout << "* ";
+//         }
+//         int space = 2 * (n - i);
+//         for (int j = 1; j <= space; j++)
+//         {
+//             cout << "  ";
+//         }
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+//      for (int i = n; i >=1; i--)
+//     {
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout << "* ";
+//         }
+//         int space = 2 * (n - i);
+//         for (int j = 1; j <= space; j++)
+//         {
+//             cout << "  ";
+//         }
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// int pattern6(int n)
+// {
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= (n - i); j++)
+//         {
+//             cout << "  ";
+//         }
+//         for (int j = 1; j <= n; j++)
+//         {
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// int pattern7(int n)
+// {
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= (n - i); j++)
+//         {
+//             cout <<" ";
+//         }
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout << i<<" ";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// int pattern8(int n)
+// {
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= (n - i); j++)
+//         {
+//             cout << "  ";
+//         }
+//         for (int j = i; j >= 1; j--)
+//         {
+//             cout << j<<" ";
+//         }
+//         for (int j = 2; j <= i; j++)
+//         {
+//             cout << j<<" ";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// int pattern7(int n)
+// {
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= (n - i); j++)
+//         {
+//             cout <<" ";
+//         }
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout << i<<" ";
+//         }
+//         cout << endl;
+//     }
+// }
+
 int main()
 {
+    // int num;
+    // cout << "Enter The Num : ";
+    // cin >> num;
+    // pattern7(num);
     // program for square starts
     // int n;
     // cout << "Enter The Values of N:" << endl;
@@ -70,16 +240,48 @@ int main()
     //     cout << endl;
     // }
 
-    int num;
-    cout << "Enter Number: ";
-    cin >> num;
+    // int num;
+    // cout << "Enter Number: ";
+    // cin >> num;
 
-    for (int i = 1; i <= num; i++)
-    {
-        for (int j = num; j>=i; j--)
-        {
-            cout << " * ";
-        }
-        cout << endl;
-    }
+    // for (int i = 1; i <= num; i++)
+    // {
+    //     for (int j = num; j>=i; j--)
+    //     {
+    //         cout << " * ";
+    //     }
+    //     cout << endl;
+    // }
+
+    // int r, c;
+    // cout << "Enter R Number : ",
+    //     cin >> r;
+    // for (int i = 0; i < r; i++)
+    // {
+    //     for (int j = 0; j < r; j++)
+    //     {
+    //         cout << "* ";
+    //     }
+    //     cout<<endl;
+    // }
+    // int r, c;
+    // cout << "Enter R Number : ",
+    //     cin >> r;
+    // cout << "Enter C Number : ",
+    //     cin >> c;
+    // for (int i = 0; i < r; i++)
+    // {
+    //     for (int j = 0; j < c; j++)
+    //     {
+    //         if (i == 0 || i == r-1  || j == 0 || j == c-1 )
+    //         {
+    //             cout << "* ";
+    //         }
+    //         else
+    //         {
+    //             cout << "  ";
+    //         }
+    //     }
+    //     cout << endl;
+    // }
 }
