@@ -33,7 +33,7 @@ int pattern11(int n)
 {
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < i; j++)
+        for (int j = n; j<n-i-1; j--)
         {
             cout << " ";
         }
