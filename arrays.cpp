@@ -37,4 +37,21 @@ int main()
     // }
     // cout<<"The Maximum Element : "<<ans<<endl;
     // cout<<"The Second Maximum Element : "<<secondMx;
+
+    //fibonacci Series 
+
+    int n;
+    cout<<"Enter The Value of N:";
+    cin>>n;
+
+    int arr[1000];
+
+     arr[0]=0;
+     arr[1]=1;
+
+    for(int i=2;i<=n-1;i++){
+        arr[i]=arr[i-1]+arr[i-2];
+
+    }
+    cout<<"The Number at "<<arr[n-1]<<" ";
 }
