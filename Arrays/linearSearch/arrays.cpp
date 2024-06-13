@@ -58,18 +58,23 @@ int main()
 
 
     //Rottate an array by 1
-    int n=8;
-    int arr[8]={3,5,4,1,6,9,8,10};
-    int temp=arr[n-1];
+    // int n=8;
+    // int arr[8]={3,5,4,1,6,9,8,10};
+    // int temp=arr[n-1];
 
-    for(int i=n-2;i>=0;i--){
-        arr[i+1]=arr[i];
-    }
-    arr[0]=temp;
+    // for(int i=n-2;i>=0;i--){
+    //     arr[i+1]=arr[i];
+    // }
+    // arr[0]=temp;
 
-    for(int i=0;i<n;i++){
-        cout<<arr[i]<<" ";
-    }
+    // for(int i=0;i<n;i++){
+    //     cout<<arr[i]<<" ";
+    // }
+ 
+
+
+    // cout<<"Hello";
+   
 
     
 }
