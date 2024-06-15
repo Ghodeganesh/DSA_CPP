@@ -1,3 +1,6 @@
+#include<iostream>
+using namespace std;
+
 int main(){
     // cout<<"Hello";
     int j=-1;
@@ -6,7 +9,7 @@ int main(){
 
     for(int i=0;i<n;i++){
         if(arr[i]==0){
-            j=1;
+            j=i;
             break;
         }
     }
@@ -21,4 +24,5 @@ int main(){
     for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
     }
+    return 1;
 }
