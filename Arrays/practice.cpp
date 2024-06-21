@@ -145,7 +145,7 @@ void rotateArray(int arr[], int size, int n) {
 
     //step1: copy last n elements into a temp array
     int temp[10000];
-    int index = 0;f 
+    int index = 0;
     for(int i = size-n; i<size; i++) {
         temp[index] = arr[i];
         index++;

@@ -167,8 +167,8 @@ using namespace std;
 //     }
 // }
 
-// int main()
-// {
+int main()
+{
     // int num;
     // cout << "Enter The Num : ";
     // cin >> num;
@@ -284,5 +284,5 @@ using namespace std;
     //     }
     //     cout << endl;
     // }
-// }
+}
 
