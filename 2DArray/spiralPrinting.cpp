@@ -42,14 +42,17 @@ int main()
         }
         right--;
         // cout << endl;
-
-        for (int i = right; i >= left; i--)
+        if (top <= bottom)
         {
-            // cout<<"the bottom and i at "<<" "<<bottom<<i<<" "<<endl;
 
-            cout << arr[bottom][i] << " ";
+            for (int i = right; i >= left; i--)
+            {
+                // cout<<"the bottom and i at "<<" "<<bottom<<i<<" "<<endl;
+
+                cout << arr[bottom][i] << " ";
+            }
+            bottom--;
         }
-        bottom--;
         for (int i = bottom; i >= top; i--)
         {
             cout << arr[i][left] << " ";
