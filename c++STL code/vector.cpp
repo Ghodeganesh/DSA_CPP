@@ -6,12 +6,64 @@ int main()
 {
     cout << "Stl In C++" << endl;
 
-    vector<int> arr(5);
+    vector<int> first;
+    vector<int> second;
 
-    cout<<"size: "<< arr.size()<<endl;
+    first.push_back(10);
+    first.push_back(11);
+    first.push_back(12);
+    first.push_back(13);
+    first.pop_back();
 
-    cout<< arr.begin<<endl;
+    for (int it : first)
+    {
+        cout << it << " ";
+    }
+    cout << endl;
 
+    second.push_back(100);
+    second.push_back(110);
+    second.push_back(120);
+    second.push_back(130);
+    second.push_back(140);
+    second.push_back(150);
+
+    second.pop_back();
+    second.pop_back();
+
+    for (int it : second)
+    {
+        cout << it << " ";
+    }
+    cout << endl;
+
+    //   cout<< "size of first:"<<first.size()<<endl;
+    //   cout<< "size of first:"<<second.size()<<endl;
+    //   cout<< "capacity of first:"<<first.size()<<endl;
+    //   cout<< "capacity of second:"<<second.size()<<endl;
+    //   cout<< "value at 2 of first:"<<first.at(2)<<endl;
+    //   cout<< "value at front first:"<<first.end()<<endl;
+    //   cout<< "value at front second:"<<second.front()<<endl;
+
+    vector<int>::iterator it = second.begin();
+    while (it != second.end())
+    {
+
+        cout << *it << " ";
+        it++;
+    }
+    //   cout<< "value at end first:"<<first.end()<<endl;
+
+    // first.swap(second);
+
+    // cout<< first[2]<<endl;
+    // cout<< first[3]<<endl;
+
+    // vector<int> arr(5);
+
+    // cout<<"size: "<< arr.size()<<endl;
+
+    // cout<< arr.begin<<endl;
 
     // arr.push_back(1);
     // arr.push_back(10);
@@ -29,5 +81,4 @@ int main()
     // cout<<endl;
     // cout<<arr[0];
     // cout<<arr.begin();
-    
 }
