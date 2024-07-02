@@ -74,13 +74,13 @@ int main()
     // int ans = inner_product(arr.begin(), arr.end(), arr2.begin(), 0);
     // cout <<"Total Sum: "<< ans;
 
-    vector<int> arr;
-    arr.push_back(1);
-    arr.push_back(11);
-    arr.push_back(13);
-    arr.push_back(21);
-    arr.push_back(12);
-    int target = 12;
-    int ans = binary_search(arr.begin(), arr.end(), target);
-    cout<<"final ans: "<<ans;
+    // vector<int> arr;
+    // arr.push_back(1);
+    // arr.push_back(11);
+    // arr.push_back(13);
+    // arr.push_back(21);
+    // arr.push_back(12);
+    // int target = 12;
+    // int ans = binary_search(arr.begin(), arr.end(), target);
+    // cout<<"final ans: "<<ans;
 }
