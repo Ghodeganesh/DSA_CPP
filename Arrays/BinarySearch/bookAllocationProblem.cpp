@@ -15,7 +15,7 @@ bool isPossibleSolution(int arr[], int size, int student, int mid)
         else
         {
             std++;
-            if (std > student || arr[i] > mid)
+            if (std > student )
             {
                 return false;
             }
@@ -30,7 +30,7 @@ bool isPossibleSolution(int arr[], int size, int student, int mid)
 int main()
 {
 
-    int arr[] = {12, 34, 67, 90};
+    int arr[] = {19, 9, 30, 22,7};
     int size = sizeof(arr) / sizeof(int);
 
     int student;
